@@ -19,8 +19,8 @@ module.exports = {
     "parser": "babel-eslint",
     "rules": {
       "strict": 0,
-    //   "prettier/prettier": "error",
+      // "prettier/prettier": "error",
       "semi": ["error","never"],
-      "quotes": ["error", "single"]
+      // "quotes": ["error", "single"]
     }
   }
