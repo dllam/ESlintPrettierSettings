@@ -38,11 +38,6 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing \"",
     "precommit": "lint-staged"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
   "lint-staged": {
     "src/**/*.(js,jsx,json,css)": [
       "prettier --write",
