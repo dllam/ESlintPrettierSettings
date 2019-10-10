@@ -5,18 +5,18 @@ module.exports = {
     author: `@gatsbyjs`,
   },
   plugins: [
-    // {
-    //   resolve: 'gatsby-plugin-eslint',
-    //   options: {
-    //     test: /\.js$|\.jsx$/,
-    //     exclude: /(node_modules|.cache|public)/,
-    //     stages: ['develop'],
-    //     options: {
-    //       emitWarning: true,
-    //       failOnError: false
-    //     }
-    //   }
-    // },
+    {
+      resolve: 'gatsby-plugin-eslint',
+      options: {
+        test: /\.js$|\.jsx$/,
+        exclude: /(node_modules|.cache|public)/,
+        stages: ['develop'],
+        options: {
+          emitWarning: true,
+          failOnError: true,
+        },
+      },
+    },
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
