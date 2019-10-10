@@ -13,7 +13,7 @@ module.exports = {
     // ]
     "extends": [
       "react-app",
-      // "plugin:prettier/recommended"
+      "plugin:prettier/recommended"
     ],
     "parser": "babel-eslint",
     "rules": {
