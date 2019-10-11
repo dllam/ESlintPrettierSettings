@@ -10,6 +10,6 @@ module.exports = {
     // strict: 0,
     // 'prettier/prettier': 'error',
     semi: ['error', 'never'],
-    "quotes": ["error", "single"]
+    quotes: ['error', 'single']
   },
 }
